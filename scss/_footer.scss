@@ -62,7 +62,6 @@ footer {
                 left: 2%;
                 font-size: 5em;
                 top: 50%;
-                @include centerBoth;
             }
         }
     }
@@ -80,7 +79,6 @@ footer {
         width: 100%;
         height: 17.9999%;
         .sociallinks {
-            @include centerVertical;
             color: $accentPink;
             font-size: 2em;
             width: 100%;
@@ -90,27 +88,11 @@ footer {
             #instagram {
                 position: absolute;
             }
-            #facebook {
-                left: 25%;
-                @include tabletAnddesktop {
-                    left: 45%;
-                }
-            }
-            #instagram {
-                left: 50%;
-                @include tabletAnddesktop {
-                    left: 50%;
-                }
-            }
-            #twitter {
-                left: 75%;
-                @include tabletAnddesktop {
-                    left: 55%;
-                }
+           
             }
         }
     }
-}
+
 
 #footerLogo {
     display: block;
