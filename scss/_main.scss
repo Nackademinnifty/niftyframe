@@ -4,57 +4,21 @@ body {
     background-color: $dark;
     color: $mainFont;
     font-family: $text;
-}
-/*
-header#home {
-    position: relative;
-    top: 0;
-    left: 0;
-    text-align: center;
-    width: 100%;
-    height: 40vh;
-    @include desktop {
-        height: 100vh;
-    }
+    z-index: -1000;
 }
 
-header#contacts,
-header#about,
-header#Training365,
-header#Craftfood,
-header#Tittut,
-header#Eko,
-header#works {
-    position: relative;
-    top: 0;
-    left: 0;
-    text-align: center;
-    width: 100%;
-    height: 40vh;
-    @include desktop {
-        height: 100vh;
-    }
+
+.fullscreen{
+height: 100vh;    
+     
 }
 
-*/
 
 .logo {
     font-family: $logo;
     color: $brightFont;
-    //font-size: 3em;
-    //top: 10%;
-    //left: 2%;
-    //position: absolute;
-    //width:100%;
-    //@include desktop {
-        //font-size: 4em;
-        //top: 50%;
-        //position: absolute;
-        //top: 50%;
-        //left: 52%;
-        //transform: translate(-50%, -50%);
-        //-webkit-transform: translate(-50%, -50%);
-    //}
+    font-size: 3.5em;
+
     span {
         color: $accentPink;
     }
@@ -63,10 +27,15 @@ header#works {
 .currentPage {
     color: $brightFont;
     font-size: 1em;
-    text-transform: uppercase;
     @include desktop {
         display: none;
     }
 }
 
 
+
+.sociallinks i{
+color: $accentPink;
+    
+    
+}

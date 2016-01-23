@@ -2,3 +2,30 @@
 background-color: transparent;
     
 }
+
+
+.navbar-default {
+    background-color: transparent;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+color:$mainFont;    
+    
+}
+
+
+.active  {
+color: $accentPink;      
+    @include desktop{
+      color: $brightFont;      
+      border-bottom: 2px solid $accentPink;  
+        
+    }
+
+
+}
+
+
+
+

@@ -9,7 +9,7 @@ video#bgvid {
         min-height: 100%;
         width: auto;
         height: auto;
-       // z-index: -100;
+       // z-index: 0;
         transform: translateX(-50%) translateY(-50%);
         -webkit-transform: translateX(-50%) translateY(-50%);
         background: $dark;

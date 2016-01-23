@@ -47,7 +47,6 @@
     background-image: linear-gradient($from, $to);
 }
 
-
 @mixin opacity($opacity) {
     opacity: $opacity;
     $opacity-ie: $opacity * 100;
@@ -55,131 +54,22 @@
 }
 
 
-//Exakt horisontell positionering, elementet måste ligga i ett element med position:relative
-@mixin centerHorizontal {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-}
-
-//Exakt vertical positionering, elementet måste ligga i ett element med position:relative
-@mixin centerVertical {
-    position: absolute;
-    top: 50%;
-    transform: translate(-0%, -50%);
-    -webkit-transform: translate(-0%, -50%);
-}
-//Exakt vertikal och horisontel positionering, elementet måste ligga i ett element med position:relative
-@mixin centerBoth {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-}
-
-
-//Används för upplösningar över 768px
-@mixin tabletAnddesktop {
-  @media (min-width: #{$tablet-width}) {
-    @content;
-  }
-}
-
-//Används för upplösningar över 560px
-@mixin smallTablet {
-  @media (min-width: #{$smallTablet}) {
-    @content;
-  }
-}
-
-//Används för upplösningar mellan 768 & 1023px
 @mixin tablet {
-  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
-    @content;
-  }
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
 }
-//Används för upplösningar över 1024px
+
+@mixin laptop {
+    @media only screen and (min-width: 992px) {
+        @content;
+    }
+}
+
 @mixin desktop {
-  @media (min-width: #{$desktop-width}) {
-    @content;
-  }
+    @media only screen and (min-width: 1200px) {
+        @content;
+    }
 }
-
-
-@mixin fadeUp {
-
-@keyframes fadeUp {
-    0%   {height:0; }
-    10%  {height:5%;}
-    20%  {height:10%;}
-    30%  {height:15%;}
-    40%  {height:20%;}
-    50%  {height:25%;}
-    60%  {height:30%;}
-    70%  {height:35%;}
-    80%  {height:40%;}
-    90%  {height:45%;}
-    100% {height:50%;}
-}
-
-}
-
-@mixin fadeDown {
-
-@keyframes fadeDown {
-    0%   {height:0; }
-    10%  {height:5%;}
-    20%  {height:10%;}
-    30%  {height:15%;}
-    40%  {height:20%;}
-    50%  {height:25%;}
-    60%  {height:30%;}
-    70%  {height:35%;}
-    80%  {height:40%;}
-    90%  {height:45%;}
-    100% {height:50%;}
-}
-
-}
-@mixin squeeze {
-
-@keyframes squeeze {
-    0%   {height:75px; width:75px; }
-    10%  {height:76px; width:76px;}
-    20%  {height:77px; width:77px;}
-    30%  {height:78px; width:78px;}
-    40%  {height:79px; width:79px;}
-    50%  {height:80px; width:80px;}
-    60%  {height:76px; width:76px;}
-    70%  {height:76px; width:76px;}
-    80%  {height:76px; width:76px;}
-    90%  {height:76px; width:76px;}
-    100% {height:76px; width:76px;}
-}
-
-}
-
-@mixin shrinkHeader {
-
-@keyframes shrinkHeader {
-    0%   {height:100vh; }
-    10%  {height:95vh;}
-    20%  {height:90vh;}
-    30%  {height:85vh;}
-    40%  {height:80vh;}
-    50%  {height:75vh;}
-    60%  {height:70vh;}
-    70%  {height:65vh;}
-    80%  {height:60vh;}
-    90%  {height:55vh;}
-    100% {height:50vh;}
-}
-
-}
-
-
-
 
 

@@ -1,35 +1,41 @@
+<div class="container-fluid">
+    <div class="row">
+
+        <footer>
+            <div class="col-xs-12 col-md-12 text-center">
+                <div class="adress">
+                    <div class="info">
+                        <h1 id="footerLogo">Nifty<span>.</span></h1>
+                        <p>
+                            <a href="mailto:info@nifty.com">info@nifty.com</a>
+                        </p>
+                        <span>.</span>
+                        <p>Birger Jarlgatan 57</p>
+                        <span>.</span>
+                        <p>111 37 Stockholm</p>
+                        <span>.</span>
+                    </div>
+                </div>
+            </div>
 
 
+            <div class="col-xs-12 col-md-12 text-center map">
+                <h3 class="logo">Find Us</h3>
+                <div id="map"></div>
+            </div>
 
-<footer>
-    <div class="adress">
-        <div class="info">
-            <h1 id="footerLogo">Nifty<span>.</span></h1>
-            <p>
-                <a href="mailto:info@nifty.com">info@nifty.com</a>
-            </p>
-            <span>.</span>
-            <p>Birger Jarlgatan 57</p>
-            <span>.</span>
-            <p>111 37 Stockholm</p>
-            <span>.</span>
-        </div>
+
+            <div class="col-xs-12 col-md-12 text-center social">
+                <div class="sociallinks">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                </div>
+            </div>
+        </footer>
+
     </div>
-
-    <div class="map">
-        <h3 class="logo">Find Us</h3>
-        <div id="map"></div>
-    </div>
-
-
-    <div class="social">
-        <div class="sociallinks">
-            <i id="facebook" class="fa fa-facebook"></i>
-            <i id="instagram" class="fa fa-instagram"></i>
-            <i id="twitter" class="fa fa-twitter"></i>
-        </div>
-    </div>
-</footer>
+</div>
 
 
 

@@ -10,7 +10,7 @@
     </title>
 
     <!-- Bootstrap Stylesheets -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
 
     <!-- Our custom Stylesheet -->
     <link href="dist/css/style.css" rel="stylesheet">
@@ -27,6 +27,7 @@
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!--Google maps API-->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -58,48 +59,58 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+    <header <?php if(isset($pageId)) echo " id='$pageId' class='$pageId' "; ?>>
+        <nav id="navigation" class="nav navbar-default  noJsNavigation">
+            <div class="container">
+                <div class="col-sm-12 col-sm-push-3 col-md-6 col-md-push-4 ">
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav text-uppercase">
+                            <li <?php if($pageId=='home') echo "class=active"; ?>><a href="index.php">Home</a></li>
+                            <li <?php if($pageId=='contacts') echo "class=active"; ?>><a href="contact.php">Contact</a></li>
+                            <li <?php if($pageId=='works') echo "class=active"; ?>><a href="work.php">Works</a></li>
+                            <li <?php if($pageId=='about') echo "class=active"; ?>><a href="about.php">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-    <nav id="navigation" class="nav navbar-default  noJsNavigation">
-        <ul class="nav navbar-nav navbar-collapse collapse">
-            <li><a class="home-" href="index.php">Home</a></li>
-            <li><a class="contacts-" href="contact.php">Contact</a></li>
-            <li><a class="works-" href="work.php">Works</a></li>
-            <li><a class="about-" href="about.php">About</a></li>
-        </ul>
-    </nav>
+            <button class="navbar-toggle collapsed" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+            </button>
+        </nav>
 
-    <div class="row">
+        <div class="container-fluid fullscreen">
+            <div class="row">
 
-
-
-        <div class="container-fluid">
-
-            <?php if ($pageId == 'home')
+                <?php if ($pageId == 'home')
         {
-        echo "<video class='hidden-xs img-responsive' autoplay loop id='bgvid'>
+        echo "<div class='container-fluid'><video class='hidden-xs' autoplay loop id='bgvid'>
             <source src='img/background.webm' type='video/webm'>
             <source src='img/background.mp4' type='video/mp4'>
-        </video>";
+        </video></div>";
             
         }?>
 
+                    <h1 class="col-xs-12 col-xs-push-1 logo">Nifty<span>.</span></h1>
+                    <h3 class="col-xs-12 text-uppercase currentPage"><?php echo "$pageId"; ?></h3>
 
 
-                <div class="menuWrapper">
+
+                    <!--<div class="menuWrapper">
                     <div class="menu">
                         <i id="bars" class="fa fa-bars"></i>
                         <i id="times" class="fa fa-times"></i>
                     </div>
-                </div>
+                </div>-->
 
 
-                <header <?php if(isset($pageId)) echo " id='$pageId' class='$pageId' "; ?>>
-                    <h1 class="text-center logo">Nifty<span>.</span></h1>
-                    <!--                <h1 class="logo"><?php if(isset($pageId)) echo "$pageTitle"; ?><span>.</span></h1>-->
-                    <h3 class="currentPage"><?php echo $pageId; ?></h3>
 
 
-                </header>
-        </div>
+
+  
     </div>
     <!-- End of row -->
+    </div>
+    <!-- End of container-fluid -->
+      </header>
