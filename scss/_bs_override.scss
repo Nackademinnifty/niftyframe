@@ -1,8 +1,4 @@
-.jumbotron{
-background-color: transparent;
-    
-}
-
+//All stil som ingår i bootstrap som vi vill modifiera lägger vi här
 
 .navbar-default {
     background-color: transparent;
@@ -17,14 +13,19 @@ color:$mainFont;
 
 .active  {
 color: $accentPink;      
-    @include desktop{
+    @include lg{
       color: $brightFont;      
       border-bottom: 2px solid $accentPink;  
         
     }
 
-
 }
+
+
+.jumbotron{
+background-color: transparent;
+}
+
 
 
 

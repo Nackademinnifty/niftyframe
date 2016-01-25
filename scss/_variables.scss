@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Times Bold';
+    src: url(../../times.ttf);
+}
+
 //Colors
 $dark:#0A0000;
 $accentPink:#F50057; //För tex knappen
@@ -13,7 +18,7 @@ $baseFont:100%;
 $headings:'Arvo', serif; //Font för rubriker
 $text:'Raleway', sans-serif;  //Font för brödtext
 //$logo:'Times Bold';  //Font för logotyp (bör ändras)
-$logo:'Press Start 2P', cursive;
+$logo:'Times Bold';
 $lineHeight:100%;
     
 
