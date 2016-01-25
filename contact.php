@@ -23,9 +23,9 @@ $pageId = 'contacts';
 			</div> 	
   	
   		<div class="form-group">
-				<textarea  class="form-group" name="textarea" rows= "10" cols="40" placeholder="Write your message here"></textarea>
+				<textarea  class="form-group" name="textarea" rows= "10" cols="50" placeholder="Write your message here"></textarea>
 				
-			<input class="btn btn-default" type="submit" value="Send">
+			<input class="btn btn-default text-uppercase btn-block btn-lg" type="submit" value="Send">
 			</div>
 			
 		</form>
