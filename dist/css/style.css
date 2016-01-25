@@ -29,6 +29,12 @@ body {
 .jumbotron {
   background-color: transparent; }
 
+.btn-default {
+  color: #fff;
+  background-color: #F50057; }
+  .btn-default:hover {
+    background-color: #ff2975; }
+
 .navbar-default {
   background-color: transparent; }
 
