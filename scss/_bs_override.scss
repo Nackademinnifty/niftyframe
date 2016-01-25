@@ -3,6 +3,14 @@ background-color: transparent;
     
 }
 
+.btn-default {
+  color: $mainFont;
+  background-color: $accentPink;
+  &:hover {
+    background-color: lighten($accentPink, 10%);
+  }
+}
+
 
 .navbar-default {
     background-color: transparent;
