@@ -12,13 +12,24 @@ $pageId = 'contacts';
 	
 	<div class="clear">
 		<form>
-			<p>Name:</p>
-			<input type="text" name="name">
-			<p>Email:</p>
-			<input type="email" name="mail">
-			<textarea name="textarea" rows= "10" cols="40" placeholder="Write your message here"></textarea>
-			<input type="submit" value="Send">
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" class="form-control" id="name" placeholder="Name">
+			</div>
+    	
+  		<div class="form-group">
+				<label for="mail">Email:</label>
+				<input type="email" class="form-control" id="mail" placeholder="Email">
+			</div> 	
+  	
+  		<div class="form-group">
+				<textarea  class="form-group" name="textarea" rows= "10" cols="40" placeholder="Write your message here"></textarea>
+				
+			<input class="btn btn-default" type="submit" value="Send">
+			</div>
+			
 		</form>
+	
 		
 		<section>
 			<p>You can also mail us for any thoughts or ideas, we will reply as fast as we can.</p>
