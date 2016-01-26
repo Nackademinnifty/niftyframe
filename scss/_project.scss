@@ -1,62 +1,45 @@
-.project {
-    background-color: #fff;
-    margin-bottom: 15%;
-    article {
-        color: $brightFont;
-        width: 100%;
-        margin: 0 auto;
-        @include desktop {
-            width: 100%;
-            min-height: 350px;
-            display: inline-block;
-            margin-top: 0.5%;
-        }
-        p {
-            //width: 50%;
-            line-height: $lineHeight*1.8;
-            margin-left: 5%;
-            @include desktop {
-                line-height: $lineHeight*2;
-                width: 40%;
-                margin-left: 3%;
-            }
-        }
-        h2 {
-            line-height: $lineHeight*2;
-            margin-left: 3%;
-            font-family: $headings;
-            @include desktop {
-                font-size: 2em;
-            }
-        }
-        a {
-            text-decoration: none;
-            color: $accentPink;
-            @include desktop {
-                line-height: $lineHeight*2;
-            }
-        }
-        figure {
-            width: 90%;
-            margin: 0 auto;
-            @include desktop {
-                width: 45%;
-                position: absolute;
-                top: 1%;
-                right: 3%;
-                overflow: hidden;
-                max-height: 380px;
-            }
-            a {
-                margin-left: 0;
-            }
-        }
-        img {
-            max-width: 100%;
-            margin-top: 5%;
-            @include desktop {
-                //max-height: 570px;    
-            }
-        }
-    }
+.project{
+	
+	article{
+		width: 100%;
+		font-size: 120%;
+		color: rgba(255, 255, 255, 0.8);
+		
+		@include md{
+			font-size: 110%;
+			width: 90%;
+			margin: 100px auto;
+		}
+		
+		a{
+			color: $accentPink;
+		}
+		
+		h2{
+			font-size: 1.5em;
+				
+			@include md{
+				font-size: 2em;
+			}
+		}
+		
+		p{
+			line-height: $lineHeight*1.8;
+			
+			@include md{
+				line-height: $lineHeight*2;
+			}
+		}
+		
+		img{
+			max-height: 570px;
+			margin: 30px auto;
+			
+			&:hover{
+				transform: none;
+			}
+		}
+	}
+	
 }
+	
