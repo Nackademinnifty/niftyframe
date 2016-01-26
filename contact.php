@@ -12,7 +12,7 @@ $pageId = 'contacts';
 	
 	
 	<div class="row">
-	<div class="clearfix">
+<!--	<div class="clearfix">-->
 		<form class="col-xs-12 col-md-5">
 			<div class="form-group">
 				<label for="name">Name:</label>
@@ -43,7 +43,7 @@ $pageId = 'contacts';
 			<p>Visit us at: </p>
 			<p><strong>Birger Jarlsgatan 57, 111 37 Stockholm</strong></p>
 	</section>
-	</div>
+<!--	</div>-->
 	</div>
 	</div>
 </div>
