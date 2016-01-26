@@ -33,6 +33,10 @@
 		}
 	}
 
+	.btn{
+		font-size: 120%;
+	}
+	
 	/*	margin: 10px;
 	
 		h1{
@@ -101,14 +105,11 @@
 				color: $accentPink;
 			}
 		}
-	//For tablet
-	@media screen and (min-width:#{$tablet-width}){
-}
 
+	*/
 	
-	
-	//For desktop
-	@media screen and (min-width:#{$desktop-width}){
+	//For desktop and tablet
+	@media screen and (min-width:#{$tablet-width}){
 		
 		.wra{
 			width: 90%;
@@ -116,7 +117,7 @@
 		}
 		
 
-		input[type=submit]{
+	/*	input[type=submit]{
 			&:hover{
 				background-color: $accentPink;
 			}
@@ -137,9 +138,8 @@
 			content: " ";
 			display:table;
 			clear: both;
-		}
+		}*/
 		
 	}
-	*/
 }
 

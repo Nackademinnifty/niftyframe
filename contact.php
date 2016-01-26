@@ -6,14 +6,14 @@ $pageId = 'contacts';
 
 <?php include 'incl/header.php'?>
 <div id="contact">
-	<div class="wra container-fluid">
+	<div class="wra">
 
 	<h1>Contact us</h1>
 	
 	
 	<div class="row">
 <!--	<div class="clearfix">-->
-		<form class="col-xs-12 col-md-5">
+		<form class="col-xs-12 col-sm-6">
 			<div class="form-group">
 				<label for="name">Name:</label>
 				<input type="text" class="form-control" id="name" placeholder="Name">
@@ -34,7 +34,7 @@ $pageId = 'contacts';
 		
 	
 		
-		<section class="col-xs-12 col-md-5">
+		<section class=" pull-right col-xs-12 col-sm-5">
 			<p>You can also mail us for any thoughts or ideas, we will reply as fast as we can.</p>
 		<address>
 			<a href="mailto:info@nifty.com">Mail us here</a>
