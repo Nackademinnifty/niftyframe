@@ -51,6 +51,7 @@ button.list-group-item:focus {
 
 
 
+
 .navbar-default {
     background-color: transparent;
 
@@ -58,6 +59,11 @@ button.list-group-item:focus {
 
 .navbar-default .navbar-nav > li > a {
     color: $mainFont;
+  &:hover {
+    color: $mainFont;
+    text-decoration: none;
+    border-bottom: 2px solid $accentPink;
+  }
 }
 
 .navbar-collapse, .navbar-default {
