@@ -46,33 +46,33 @@
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
 </head>
 
 <body<?php if(isset($pageId)) echo " class='$pageId' "; ?>>
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-    <header <?php if(isset($pageId)) echo " id='$pageId' class='$pageId' "; ?>>
+    <header <?php if(isset($pageId)) echo " id='$pageId' class='$pageId fullscreen' "; ?>>
         <nav id="navigation" class="nav navbar-default  noJsNavigation">
-            <div class="container">
-                <div class="col-sm-12 col-sm-push-3 col-md-6 col-md-push-4 ">
+
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-3 col-md-offset-4">
                     <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav text-uppercase">
-                            <li <?php if($pageId=='home') echo "class=active"; ?>><a href="index.php">Home</a></li>
-                            <li <?php if($pageId=='contacts') echo "class=active"; ?>><a href="contact.php">Contact</a></li>
-                            <li <?php if($pageId=='works') echo "class=active"; ?>><a href="work.php">Works</a></li>
-                            <li <?php if($pageId=='about') echo "class=active"; ?>><a href="about.php">About</a></li>
-                        </ul>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-md-10 col-xs-offset-1 col-md-offset-0">
+                                <ul class="nav navbar-nav text-uppercase center-block">
+                                    <li <?php if($pageId=='home' ) echo "class=active"; ?>><a href="index.php">Home</a></li>
+                                    <li <?php if($pageId=='contacts' ) echo "class=active"; ?>><a href="contact.php">Contact</a></li>
+                                    <li <?php if($pageId=='works' ) echo "class=active"; ?>><a href="work.php">Works</a></li>
+                                    <li <?php if($pageId=='about' ) echo "class=active"; ?>><a href="about.php">About</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
+
 
             <button class="navbar-toggle collapsed" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
                 <span class="sr-only">Toggle navigation</span>
@@ -80,37 +80,22 @@
             </button>
         </nav>
 
-        <div class="container-fluid fullscreen">
-            <div class="row">
-
-                <?php if ($pageId == 'home')
-        {
-        echo "<div class='container-fluid'><video class='hidden-xs' autoplay loop id='bgvid'>
-            <source src='img/background.webm' type='video/webm'>
-            <source src='img/background.mp4' type='video/mp4'>
-        </video></div>";
-            
-        }?>
-
-                    <h1 class="col-xs-12 col-xs-push-1 logo">Nifty<span>.</span></h1>
-                    <h3 class="col-xs-12 text-uppercase currentPage"><?php echo "$pageId"; ?></h3>
 
 
+        <!--        <div class="container-fluid">-->
+        <div class="row svg-row">
+<!--            <div class="col-xs-6 col-sm-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-4">-->
+               <div class="jumbotron">
+                     <div class="svglogo">
+                        <?php include 'incl/logo.php'?>
+                    <!--                </div>-->
+                                </div>
+                </div>
 
-                    <!--<div class="menuWrapper">
-                    <div class="menu">
-                        <i id="bars" class="fa fa-bars"></i>
-                        <i id="times" class="fa fa-times"></i>
-                    </div>
-                </div>-->
+            <div class="col-xs-12 col-sm-12 col-sm-offset-1 col-md-12">
+                <h3 class="text-uppercase currentPage"><?php echo "$pageId"; ?></h3>
+            </div>
+        </div>
+        <!--        </div>    -->
 
-
-
-
-
-  
-    </div>
-    <!-- End of row -->
-    </div>
-    <!-- End of container-fluid -->
-      </header>
+    </header>

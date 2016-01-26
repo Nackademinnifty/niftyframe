@@ -54,22 +54,47 @@
 }
 
 
-@mixin tablet {
+@mixin sm {
     @media only screen and (min-width: 768px) {
         @content;
     }
 }
 
-@mixin laptop {
+@mixin md {
     @media only screen and (min-width: 992px) {
         @content;
     }
 }
 
-@mixin desktop {
+@mixin lg {
     @media only screen and (min-width: 1200px) {
         @content;
     }
+}
+
+
+//Exakt horisontell positionering, elementet måste ligga i ett element med position:relative
+@mixin centerHorizontal {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+//Exakt vertical positionering, elementet måste ligga i ett element med position:relative
+@mixin centerVertical {
+    position: absolute;
+    top: 50%;
+    transform: translate(-0%, -50%);
+    -webkit-transform: translate(-0%, -50%);
+}
+//Exakt vertikal och horisontel positionering, elementet måste ligga i ett element med position:relative
+@mixin centerBoth {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 
