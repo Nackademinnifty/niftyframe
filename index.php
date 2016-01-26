@@ -6,10 +6,8 @@ $pageId = 'home';
 
 <?php include 'incl/header.php'?>
 
-<section class="container-fluid">
-
   <!-- Company History -->
-  <section id="journey" class="row center-block">
+  <section id="journey" class="row">
     <section class="col-sm-12 col-lg-6">
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -28,7 +26,7 @@ $pageId = 'home';
   </section> <!-- /END History -->
 
   <!-- Employees -->
-  <section id="team" class="row center-block">
+  <section id="team" class="row">
     <figure class="hidden-xs col-lg-4">
       <a href="about.php#joel"><img class="img-rounded" src="img/robin.jpeg" alt="Joel Sjöström" /></a>
       <a href="about.php#robin"><img class="img-rounded" src="img/robin.jpeg" alt="Robin Zetterström"></a>
@@ -51,7 +49,7 @@ $pageId = 'home';
   </section> <!-- /END Employees -->
 
   <!-- Our showcase -->
-  <section id="portfolio" class="row center-block">
+  <section id="portfolio" class="row">
     <section class="col-sm-12 col-lg-6">
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -68,7 +66,5 @@ $pageId = 'home';
     </section>
     <a class="btn-lg btn-default" href="work.php">View our work</a>
   </section> <!-- /END Showcase -->
-
-</section>
 
 <?php include 'incl/footer.php'?>
