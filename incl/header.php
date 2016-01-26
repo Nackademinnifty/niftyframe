@@ -48,9 +48,22 @@
 
 </head>
 
-<body<?php if(isset($pageId)) echo " class='$pageId' "; ?>>
+<body<?php if(isset($pageId)) echo " class='$pageId' "; ?>
 
-    <header <?php if(isset($pageId)) echo " id='$pageId' class='$pageId fullscreen' "; ?>>
+    <header <?php if(isset($pageId == 'home')) 
+
+    { echo " id='$pageId' class='$pageId fullscreen' "; 
+
+    }
+
+
+
+
+    ?>>
+        
+
+
+
         <nav class="nav navbar-default navbar-fixed-top">
          <div class="container">  
            <div class="navbar-header">
