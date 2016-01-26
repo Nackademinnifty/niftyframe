@@ -9,7 +9,9 @@
     color: $mainFont;
     background-color: $accentPink;
     &:hover {
-        background-color: lighten($accentPink, 10%);
+        color: $mainFont;
+        background-color: lighten($accentPink, 5%);
+        text-decoration: none;
     }
 }
 
@@ -70,4 +72,19 @@ button.list-group-item:focus {
 font-size: 2em;    
     
     
+}
+
+/* ================================= 
+  Ny style för panel-default
+==================================== */
+
+.panel-default > .panel-heading {
+  color: $mainFont;
+  background-color: $accentPink;
+  border: none;
+}
+
+.panel.panel-default {
+  background-color: black;
+  border: none;
 }
