@@ -1,0 +1,49 @@
+html,
+body {
+  overflow-x: hidden;
+  background-color: #0A0000;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  z-index: -1000; }
+
+.fullscreen {
+  height: 100vh; }
+
+.logo {
+  font-family: "Press Start 2P", cursive;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 3.5em; }
+  .logo span {
+    color: #F50057; }
+
+.currentPage {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1em; }
+  @media only screen and (min-width: 1200px) {
+    .currentPage {
+      display: none; } }
+
+.sociallinks i {
+  color: #F50057; }
+
+.jumbotron {
+  background-color: transparent; }
+
+.btn-default {
+  color: #fff;
+  background-color: #F50057; }
+  .btn-default:hover {
+    background-color: #ff2975; }
+
+.navbar-default {
+  background-color: transparent; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+.active {
+  color: #F50057; }
+  @media only screen and (min-width: 1200px) {
+    .active {
+      color: rgba(255, 255, 255, 0.8);
+      border-bottom: 2px solid #F50057; } }

@@ -1,4 +1,20 @@
+<<<<<<< HEAD
 //All stil som ingår i bootstrap som vi vill modifiera lägger vi här
+=======
+.jumbotron{
+background-color: transparent;
+    
+}
+
+.btn-default {
+  color: $mainFont;
+  background-color: $accentPink;
+  &:hover {
+    background-color: lighten($accentPink, 10%);
+  }
+}
+
+>>>>>>> f3774fab949d28c7406c48b98e55164e7080aa2e
 
 .navbar-default {
     background-color: transparent;
