@@ -1,0 +1,26 @@
+.svglogo {
+    width: 60%;
+    @include centerHorizontal;
+    top: 10%;
+    width: 30%;
+    @include md {
+        @include centerBoth;
+        width: 20%;
+    }
+    @include lg {
+        width: 30%;
+    }
+}
+
+.svg-row {
+    min-height: 90vh;
+    position: relative;
+}
+
+.currentPage {
+    color: $brightFont;
+    font-size: 1em;
+    @include md {
+        display: none;
+    }
+}
