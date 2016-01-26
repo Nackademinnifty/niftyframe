@@ -18,7 +18,7 @@
 		h2{
 			font-size: 1.5em;
 				
-			@include lg{
+			@include md{
 				font-size: 2em;
 			}
 		}
@@ -26,7 +26,7 @@
 		p{
 			line-height: $lineHeight*1.8;
 			
-			@include lg{
+			@include md{
 				line-height: $lineHeight*2;
 			}
 		}

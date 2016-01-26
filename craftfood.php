@@ -22,7 +22,7 @@ $pageId = 'Craftfood';
                </div>
                 
            
-                <figure class="pull-right col-xs-12 col-md-6">
+               <figure class="pull-right col-xs-12 col-md-6">
                     <a target="_top" href="img/work/craftfood.jpg"><img class="img-responsive" src="img/work/craftfood.jpg" alt="craftfood Responsive image"></a>
                 </figure>
             
