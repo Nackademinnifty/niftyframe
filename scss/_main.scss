@@ -4,8 +4,15 @@ body {
     background-color: $dark;
     color: $mainFont;
     font-family: $text;
-    z-index: -1000;
+    z-index: -1000;   
 }
+
+h1, h2, h4, h4, h5{
+font-family:$headings;
+
+}
+
+
 
 
 

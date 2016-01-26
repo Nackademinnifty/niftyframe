@@ -48,9 +48,24 @@
 
 </head>
 
-<body<?php if(isset($pageId)) echo " class='$pageId' "; ?>
+<body<?php if(isset($pageId)) echo " class='$pageId' "; ?>>
 
-    <header <?php if(isset($pageId)) echo " id='$pageId' class='$pageId fullscreen' "; ?>>
+  <div class="container-fluid">  
+
+    <header<?php if($pageId === 'home') {
+
+      echo " id='$pageId' class='$pageId fullscreen' ";
+}
+
+ elseif ($pageId !='home') {
+     echo " id='$pageId' class='$pageId halfscreen' ";
+}
+
+    ?>>
+        
+
+
+
 
         <nav class="nav navbar-default navbar-fixed-top">
          <div class="container">  
@@ -94,7 +109,7 @@
                 </div>
 
             <div class="col-xs-12 col-sm-12 col-sm-offset-1 col-md-12">
-                <h3 class="text-uppercase currentPage"><?php echo "$pageId"; ?></h3>
+                <h3 class="text-uppercase hidden-md hidden-lg currentPage"><?php echo "$pageId"; ?></h3>
             </div>
             </div>
         </div>    

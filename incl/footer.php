@@ -1,6 +1,4 @@
 <footer>
-    <div class="container-fluid">
-
         <div class="row">
             <div class="col-xs-8 col-xs-offset-2">
                 <div class="jumbotron text-center">
@@ -20,16 +18,16 @@
 
         </div>
 
-        <div class="row">
-            <div class="col-xs-12 text-center">
-                <div class="map">
-                    <div id="map">
-                    </div>
-                        <h3 class="logo">Find Us Here</h3>
-                </div>
-            </div>
-        </div>
-
+          <div class="row hidden-xs hidden-sm">
+               <div class=" text-center">
+                   <div class="map">
+                       <div id="map">
+                       </div>
+                           <h3 class="logo">Find Us Here</h3>
+                   </div>
+               </div>
+           </div>
+ 
         
 
 
@@ -49,7 +47,7 @@
     </div>
 </footer>
 
-
+</div>
 
 
 
