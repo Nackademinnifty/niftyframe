@@ -19,17 +19,14 @@
         </div>
 
           <div class="row hidden-xs hidden-sm">
-               <div class=" text-center">
+               <div class="">
                    <div class="map">
                        <div id="map">
                        </div>
-                           <h3 class="logo">Find Us Here</h3>
+                           <h3 class="logo text-center">Find Us Here</h3>
                    </div>
                </div>
            </div>
- 
-        
-
 
         <div class="row">
             <div class="col-xs-8 col-xs-offset-2 text-center">
@@ -40,11 +37,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-    </div>
 </footer>
 
 </div>

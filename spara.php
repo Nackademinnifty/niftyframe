@@ -15,3 +15,27 @@
                         <i id="times" class="fa fa-times"></i>
                     </div>
                 </div>-->
+
+
+                                      <img class="" src="img/work/thumbnails/craftfood.jpg" alt="craftfood"/>
+
+                <img class="" src="img/work/thumbnails/tittut.jpg" alt="tittut"/>
+
+                <img class="" src="img/work/thumbnails/training365.jpg" alt="training365"/>
+
+                <img class="" src="img/work/thumbnails/eko.jpg" alt="eko"/>
+          <article class="row">
+
+          </article>
+
+            <article class="row">
+
+            </article>
+
+            <article class="row">
+
+            </article>
+
+            <article class="row">
+
+            </article>

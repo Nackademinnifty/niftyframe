@@ -1,96 +1,77 @@
 .work {
-    box-sizing: border-box;
-    background-color: $dark;
-    #workHeader {
-        margin-bottom: 15%;
-        line-height: $lineHeight*2;
-        text-align: center;
-        @include desktop {
-            margin-bottom: 5%;
-        }
-        h1 {
-            font-family: $headings;
-            margin-left: 3%;
-            line-height: $lineHeight*2.5;
-        }
-        p {
-            margin-left: 5%;
-        }
-    }
+
     a {
         text-decoration: none;
-    article {
-        color: $brightFont;
-        width: 100%;
-        background-size: cover;
-        background-blend-mode: overlay;
-        background-color: $darkTransparent;
-        min-height: 200px;
-        &:hover {
-            background-color: darken(grey, 5%);
-        }
-        @include desktop {
-            box-sizing: border-box;
-            width: 49.8%;
-            min-height: 350px;
-            display: inline-block;
-            margin-top: 0.5%;
-        }
-        p {
-            width: 50%;
-            line-height: $lineHeight*1.8;
-            margin-left: 5%;
-            @include desktop {
-                line-height: $lineHeight*2;
+
+
+        article {
+            color: $brightFont;
+           // width: 100%;
+            min-height: 150px;
+            overflow-x: hidden;
+            background-blend-mode: multiply;
+            background-color: rgba(88, 87, 92, 0.89);
+            background-size: cover;
+
+            &:hover {
+                background-color: darken(grey, 5%);
             }
-        }
-        div {
-            background-color: $accentPinkTrans;
-            width: 60%;
-            display: block;
-            
-            
-            @include tablet{
-            width:45%;    
-                
+            @include md {
+                min-height: 350px;
+               
             }
-        
-            
-            @include desktop {
-             width: 50%;   
-                
+            p {
+                width: 50%;
+                line-height: $lineHeight*1.8;
+
+                @include md {
+                    line-height: $lineHeight*2;
+                }
             }
-            h2 {
-                line-height: $lineHeight*2.5;
-                margin-left: 2%;
-                font-family: $headings;
-                font-size: $baseFont;
-                @include desktop {
-                    font-size: 1.3em;
+            div {
+                background-color: $accentPinkTrans;
+                //width: 60%;
+                display: block;
+
+
+                @include sm {
+                    //width: 45%;
+                }
+                @include md {
+                    //width: 50%;
+                }
+                h2 {
+                    line-height: $lineHeight*2.5;
+                    margin-left: 2%;
+                    font-family: $headings;
+                    font-size: $baseFont;
+
+                    @include md {
+                        font-size: 1.3em;
+                    }
+                }
+            }
+            a {
+                text-decoration: none;
+                color: $accentPink;
+                margin-left: 5%;
+
+                @include md {
+                    line-height: $lineHeight*2;
                 }
             }
         }
-        a {
-            text-decoration: none;
-            color: $accentPink;
-            margin-left: 5%;
-            @include desktop {
-                line-height: $lineHeight*2;
-            }
-        }
-    }
-        
     }
     #eko {
-        background-image: url(../img/work/thumbnails/eko.jpg);
+        background-image: url(../../img/work/thumbnails/eko.jpg);
     }
     #training365 {
-        background-image: url(../img/work/thumbnails/training.jpg);
+        background-image: url(../../img/work/thumbnails/training.jpg);
     }
     #tittut {
-        background-image: url(../img/work/thumbnails/tittut.jpg);
+        background-image: url(../../img/work/thumbnails/tittut.jpg);
     }
     #craftfood {
-        background-image: url(../img/work/thumbnails/craftfood.jpg);
+        background-image: url(../../img/work/thumbnails/craftfood.jpg);
     }
 }
