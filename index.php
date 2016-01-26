@@ -20,20 +20,20 @@ $pageId = 'home';
         </div>
       </div>
     </section>
-    <section class="col-sm-12 col-lg-6">
+    <section id="btn-section" class="col-sm-12 col-lg-6">
       <a class="btn-lg btn-default" href="about.php#offerWrap">Read more</a>
-    </section> 
+    </section>
   </section> <!-- /END History -->
 
   <!-- Employees -->
   <section id="team" class="row">
-    <figure class="hidden-xs col-lg-4">
-      <a href="about.php#joel"><img class="img-rounded" src="img/robin.jpeg" alt="Joel Sjöström" /></a>
-      <a href="about.php#robin"><img class="img-rounded" src="img/robin.jpeg" alt="Robin Zetterström"></a>
+    <figure class="hidden-xs hidden-sm hidden-md col-lg-6">
+      <a href="about.php#joel"><img class="img-rounded" src="img/joel.jpg" alt="Joel Sjöström" /></a>
+      <a href="about.php#robin"><img class="img-rounded" src="img/nina.jpg" alt="Robin Zetterström"></a>
       <a href="about.php#nina"><img class="img-rounded" src="img/robin.jpeg" alt="Nina Ma"></a>
-      <a href="about.php#victor"><img class="img-rounded" src="img/robin.jpeg" alt="Victor T Wagner"></a>
+      <a href="about.php#victor"><img class="img-rounded" src="img/victor.jpg" alt="Victor T Wagner"></a>
     </figure>
-    <section class="col-sm-12 col-lg-6 pull-right">
+    <section class="col-sm-12 col-lg-6">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h2>Our team</h2>
@@ -45,7 +45,9 @@ $pageId = 'home';
         </div>
       </div>
     </section>
-    <a class="hidden-lg hidden-md btn-lg btn-default" href="about.php">Meet our team!</a>
+    <section id="btn-section" class="col-sm-12">
+      <a class="hidden-lg btn-lg btn-default" href="about.php">Meet our team!</a>
+    </section>
   </section> <!-- /END Employees -->
 
   <!-- Our showcase -->
@@ -64,7 +66,9 @@ $pageId = 'home';
         </div>
       </div>
     </section>
-    <a class="btn-lg btn-default" href="work.php">View our work</a>
+    <section id="btn-section" class="col-sm-12 col-lg-6">
+      <a class="btn-lg btn-default" href="work.php">View our work</a>
+    </section>
   </section> <!-- /END Showcase -->
 
 <?php include 'incl/footer.php'?>
