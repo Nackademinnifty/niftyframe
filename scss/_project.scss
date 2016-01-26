@@ -1,6 +1,29 @@
-.hej{
+.project{
+	
+	article{
+		font-size: 120%;
+		color: rgba(255, 255, 255, 0.8);
+		
+		h2{
+				font-size: 1.5em;
+			}
+		
+		figure{
+			width: 100%;
+		}
+		img{
+			max-width: 100%;
+			height: auto;
+			margin: 30px auto;
+		}
+		
+	}
 	
 }
+	
+	
+
+/*
 .project {
     background-color: #fff;
     margin-bottom: 15%;
@@ -62,4 +85,4 @@
             }
         }
     }
-}
+}*/
