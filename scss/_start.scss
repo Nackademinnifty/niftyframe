@@ -1,3 +1,9 @@
 section.fullscreen:last-child {
   vertical-align: middle;
 }
+
+figure img {
+  max-height: 200px;
+  max-width: 200px;
+  margin: 10px;
+}

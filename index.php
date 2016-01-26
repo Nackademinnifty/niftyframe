@@ -5,13 +5,7 @@ $pageId = 'home';
 
 
 <?php include 'incl/header.php'?>
-<style>
-  figure img {
-    max-width: 200px;
-    max-height: 200px;
-    margin: 10px;
-  }
-</style>
+
 <section class="container-fluid">
 
   <!-- Company History -->
