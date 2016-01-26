@@ -26,7 +26,6 @@
     <!-- Externtal stylesheets for fonts & icons-->
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!--Google maps API-->
@@ -52,12 +51,19 @@
 <body<?php if(isset($pageId)) echo " class='$pageId' "; ?>>
 
     <header <?php if(isset($pageId)) echo " id='$pageId' class='$pageId fullscreen' "; ?>>
-        <nav id="navigation" class="nav navbar-default  noJsNavigation">
-
+        <nav class="nav navbar-default navbar-fixed-top">
+         <div class="container">  
+           <div class="navbar-header">
+               <button class="navbar-toggle collapsed" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+            </button>
+               
+               
+           </div>
             <div class="row">
-                <div class="col-xs-6 col-xs-offset-3 col-md-offset-4">
-                    <div class="navbar-collapse collapse">
-
+                <div class="col-xs-6 col-xs-offset-7 col-md-offset-4">
+                    <div id="navbar" class="navbar-collapse collapse">
                         <div class="row">
                             <div class="col-xs-12 col-md-10 col-xs-offset-1 col-md-offset-0">
                                 <ul class="nav navbar-nav text-uppercase center-block">
@@ -68,34 +74,28 @@
                                 </ul>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
 
 
-            <button class="navbar-toggle collapsed" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-            </button>
-        </nav>
+           
+       
+        </div>  
+          </nav>
 
 
 
-        <!--        <div class="container-fluid">-->
         <div class="row svg-row">
-<!--            <div class="col-xs-6 col-sm-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-4">-->
                <div class="jumbotron">
                      <div class="svglogo">
                         <?php include 'incl/logo.php'?>
-                    <!--                </div>-->
-                                </div>
                 </div>
 
             <div class="col-xs-12 col-sm-12 col-sm-offset-1 col-md-12">
                 <h3 class="text-uppercase currentPage"><?php echo "$pageId"; ?></h3>
             </div>
-        </div>
-        <!--        </div>    -->
+            </div>
+        </div>    
 
     </header>

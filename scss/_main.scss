@@ -2,51 +2,10 @@ html,
 body {
     overflow-x: hidden;
     background-color: $dark;
-    background-color: #fff;
     color: $mainFont;
     font-family: $text;
     z-index: -1000;
 }
 
-.fullscreen {
-    height: 100vh;
-}
 
-.halfscreen {
-    height: 50vh;
-}
-
-.three-quarter-screen{
-height: 75vh;    
-}
-
-.red{
-background: red;    
-}
-
-.svglogo {
-    width: 60%;
-    @include md {
-    }
-    @include lg {
-        @include centerBoth;
-        width: 30%;
-    }
-}
-
-.svg-row{
-border:2px solid indigo;
-min-height: 90vh;
-position: relative;
-}
-
-
-
-.currentPage {
-    color: $brightFont;
-    font-size: 1em;
-    @include md {
-        display: none;
-    }
-}
 
