@@ -1,40 +1,6 @@
 <footer>
     <div class="container-fluid">
 
-        <!--<div class="row halfscreen">
-            <div class="col-xs-* text-center">
-                <div class="adress">
-                    <div class="info">
-                        <h1 id="footerLogo">Nifty<span>.</span></h1>
-                        <p>
-                            <a href="mailto:info@nifty.com">info@nifty.com</a>
-                        </p>
-                        <span>.</span>
-                        <p>Birger Jarlgatan 57</p>
-                        <span>.</span>
-                        <p>111 37 Stockholm</p>
-                        <span>.</span>
-                    </div>
-                </div>
-            </div>
-
-
-                <div class="col-xs-* text-center map three-quarter-screen">
-                    <div id="map">
-                        <h3 class="logo">Find Us</h3>
-                    </div>
-                </div>
-
-
-                <div class="col-xs-* text-center social halfscreen">
-                    <div class="sociallinks">
-                        <i class="fa fa-facebook"></i>
-                        <i class="fa fa-instagram"></i>
-                        <i class="fa fa-twitter"></i>
-                    </div>
-                </div>
-            </div>-->
-
         <div class="row">
             <div class="col-xs-8 col-xs-offset-2">
                 <div class="jumbotron text-center">
@@ -63,6 +29,8 @@
                 </div>
             </div>
         </div>
+
+        
 
 
         <div class="row">
