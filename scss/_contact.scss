@@ -1,7 +1,29 @@
+body{
+		background-color: black;
+}
 #contact{
+	input{
+		font-size: 110%;
+	}
 	textarea{
 		width: 100%;
+		font-size: 110%;
 	}
+	
+	label{
+		font-size: 120%;
+	}
+	
+	section{
+		font-size: 120%;
+	}
+	
+	a{
+		color: $accentPink;
+	}
+	
+
+
 	/*	margin: 10px;
 	
 		h1{
