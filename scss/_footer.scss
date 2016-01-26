@@ -27,7 +27,6 @@ footer {
         }
     }
     .map {
-        display: none;
         @include md {
             display: block;
             width: 100%;
