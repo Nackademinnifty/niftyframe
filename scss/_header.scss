@@ -20,7 +20,5 @@
 .currentPage {
     color: $brightFont;
     font-size: 1em;
-    @include md {
-        display: none;
-    }
+ 
 }
