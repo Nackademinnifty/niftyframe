@@ -1,5 +1,11 @@
-section.fullscreen:last-child {
-  vertical-align: middle;
+@each $background in $backgrounds {
+  ##{$background} {
+    @include lg {
+    min-height: $viewportSize;
+    padding: 50px 50px;
+    background: no-repeat center/ cover url(../../img/#{$background}.jpeg);
+    }
+  }
 }
 
 figure img {
