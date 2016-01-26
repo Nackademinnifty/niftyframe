@@ -13,7 +13,7 @@ $pageId = 'home';
     <section class="col-sm-12 col-lg-6">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h2 class="panel-title">Our journey</h2>
+          <h2>Our journey</h2>
         </div>
         <div class="panel-body">
           <p>
@@ -38,7 +38,7 @@ $pageId = 'home';
     <section class="col-sm-12 col-lg-6 pull-right">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h2 class="panel-title">Our team</h2>
+          <h2>Our team</h2>
         </div>
         <div class="panel-body">
           <p>
@@ -55,7 +55,7 @@ $pageId = 'home';
     <section class="col-sm-12 col-lg-6">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h2 class="panel-title">Our works</h2>
+          <h2>Our works</h2>
         </div>
         <div class="panel-body">
         <p>
