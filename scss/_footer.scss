@@ -70,7 +70,7 @@ footer {
 }
 
 #footerLogo {
-    font-family: $logo;
+    font-family: $headings;
     color: $mainFont;
     font-size: 1.2em;
     @include md {
@@ -92,17 +92,3 @@ footer {
     }
 }
 
-.red {
-    background: red;
-}
-
-.green {
-    background: green;
-}
-
-.blue {
-    background: blue;
-}
-.yellow{
-background: yellow;    
-}

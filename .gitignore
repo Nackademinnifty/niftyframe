@@ -9,5 +9,9 @@ config.codekit
 /min
 
 
+### Sass cache ###
+scss/.sass-cache/
+
+
 ## Temporary ignore style.css ##
 dist/css/style.css
