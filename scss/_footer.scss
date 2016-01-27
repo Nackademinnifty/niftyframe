@@ -1,15 +1,12 @@
 footer {
     background-color: $dark;
-    width: 100%;
     border: 0;
-   
-   
+
     .info {
         font-style: normal;
         line-height: $lineHeight*3;
-       
-        a,
-        p {
+
+        a, p {
             color: $brightFont;
             font-size: $baseFont*1;
             font-weight: 500;
@@ -18,50 +15,41 @@ footer {
     }
     .map {
         @include md {
-            display: block;
-            width: 100%;
-            height: 50%;
-            background-color: #000;
+            background-color: $darkerTransparent;
             -webkit-background-blend-mode: darken;
         }
         #map {
-            width: 100%;
             height: 90vh;
             @include opacity(0.5);
-            //z-index: -1;    
-        }
-        .logo {
-            display: none;
-            @include md {
-                display: block;
-                font-family: $headings;
-                color: $mainFont;
-                font-size: 5em;
-                //@include centerBoth;
-            }
         }
     }
-    .social {
-        @include md {
-            width: 100%;
-            background: red;
-            opacity: 0.5;
-        }
+
+    .map-wrapper{
+    position:relative;
+
+
     }
+    .find-us {
+        font-family: $headings;
+        color: $mainFont;
+        font-size: 5em;
+        @include centerBoth;
+  
+    }
+   
     .sociallinks {
         color: $accentPink;
         font-size: 3em;
-        width: 100%;
     }
     i {
         padding: 2%;
     }
 }
-
 #footerLogo {
     font-family: $headings;
     color: $mainFont;
     font-size: 1.2em;
+
     @include md {
         font-size: 2em;
     }
@@ -69,15 +57,3 @@ footer {
         color: $accentPink;
     }
 }
-
-#row {
-    background-color: aliceblue;
-    //opacity: 0.4;
-    width: 100%;
-    //height: 50vh;    
-    border: 2px solid red;
-    p {
-        color: black;
-    }
-}
-
