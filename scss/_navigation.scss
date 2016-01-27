@@ -1,3 +1,9 @@
-.dropdown{
- background:$darkerTransparent;   
+.dropdown {
+background:$darkerTransparent; 
+
+   @include sm{
+    background: transparent;
+
+   } 
+  
 }
