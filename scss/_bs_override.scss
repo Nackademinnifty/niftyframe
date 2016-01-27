@@ -17,7 +17,7 @@
 .page-header {
   border-bottom: none;
   margin: 0;
-  height: 30vh;
+  height: 60vh;
 
   @include md {
     height: 80vh;
@@ -25,7 +25,13 @@
 }
 .page-header-start {
   border-bottom: none;
-  height: 100vh;
+  height: 80vh;
+@include md {
+    height: 100vh;
+  }
+
+
+
 }
 a {
   color: $brightFont;

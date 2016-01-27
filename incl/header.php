@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -36,17 +36,18 @@
 
   <div class="container-fluid">  
 
-    <header<?php if($pageId === 'home'){echo " id='$pageId' class='$pageId page-header-start' ";}
+    <header <?php if($pageId === 'home'){echo "id='$pageId' class='$pageId page-header-start'";}
     elseif ($pageId !='home') {echo " id='$pageId' class='$pageId page-header' ";}?>>
         
 
 <?php include 'incl/nav.php'?>
-<?php include 'incl/video.php'?>
 
         
+
         <div class="row svg-row">
                <div class="jumbotron">
-                     <div class="svglogo">
+                     <div <?php if($pageId === 'home'){echo "class='svglogo-start'";}
+                        elseif ($pageId !='home') {echo "class='svglogo'";}?>>
                         <a href="index.php"><?php include 'incl/logo.php'?></a>
                 </div>
 
