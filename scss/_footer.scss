@@ -45,15 +45,19 @@ footer {
         padding: 2%;
     }
 }
-#footerLogo {
-    font-family: $headings;
+
+
+.footerLogo {
+    font-family: $logo;
     color: $mainFont;
-    font-size: 1.2em;
+    font-size: 0.8em;
 
     @include md {
-        font-size: 2em;
+        font-size: 1em;
     }
     span {
         color: $accentPink;
     }
 }
+
+
