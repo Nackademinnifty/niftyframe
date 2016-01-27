@@ -8,7 +8,7 @@ $pageId = 'Craftfood';
        
 
         <section class="project row">
-            <article>
+            <article class="center-block">
                <div class="col-xs-12 col-md-5">
                 <h2>Client: <span>Craftfood</span></h2>
                 <h2>Project: <span>New website</span></h2>

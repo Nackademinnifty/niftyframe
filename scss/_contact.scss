@@ -52,10 +52,10 @@
 
 	
 	//For desktop and tablet
-@include lg	{	
-		.wra{
+@include md	{	
+		.center-block{
 			width: 90%;
-			margin: 150px auto;
+			
 		}	
 	}
 

@@ -6,7 +6,7 @@ $pageId = 'contacts';
 
 <?php include 'incl/header.php'?>
 <div id="contact">
-	<div class="wra">
+	<div class="center-block">
 
 	<h1>Contact us</h1>
 	
