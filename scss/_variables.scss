@@ -10,7 +10,7 @@ $accentPinkTrans: hsla(339, 100%, 48%,0.7);
 $brightFont:hsla(303, 4%, 100%, 0.8); //Genomskinlig vit text
 $mainFont: #fff; //Vit färg för brödtext
 $gradient:hsla(258, 3%, 15%, 0.93); 
-$darkTransparent:hsla(258, 3%, 15%, 0.89); 
+$darkTransparent:hsla(258, 3%, 55%, 0.89); 
 
 
 //Fonts
@@ -21,11 +21,6 @@ $text:'Raleway', sans-serif;  //Font för brödtext
 $logo:'Times Bold';
 $lineHeight:100%;
     
-
-//Media queries
-$tablet-width: 768px;
-$desktop-width: 1024px;
-$smallTablet: 560px;
 
 //Startpage backgrounds
 $backgrounds: 'journey', 'team', 'portfolio';

@@ -11,7 +11,7 @@ $pageId = 'home';
     <section class="col-sm-12 col-lg-6">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h2>Our journey</h2>
+          <h3>Our journey</h3>
         </div>
         <div class="panel-body">
           <p>
@@ -36,7 +36,7 @@ $pageId = 'home';
     <section class="col-sm-12 col-lg-6">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h2>Our team</h2>
+          <h3>Our team</h3>
         </div>
         <div class="panel-body">
           <p>
@@ -45,8 +45,14 @@ $pageId = 'home';
         </div>
       </div>
     </section>
+    <figure class="hidden-xs hidden-sm hidden-lg col-sm-12">
+      <a href="about.php#joel"><img class="img-rounded" src="img/joel.jpg" alt="Joel Sjöström" /></a>
+      <a href="about.php#robin"><img class="img-rounded" src="img/nina.jpg" alt="Robin Zetterström"></a>
+      <a href="about.php#nina"><img class="img-rounded" src="img/robin.jpeg" alt="Nina Ma"></a>
+      <a href="about.php#victor"><img class="img-rounded" src="img/victor.jpg" alt="Victor T Wagner"></a>
+    </figure>
     <section id="btn-section" class="col-sm-12">
-      <a class="hidden-lg btn-lg btn-default" href="about.php">Meet our team!</a>
+      <a class="hidden-lg hidden-md btn-lg btn-default" href="about.php">Meet our team!</a>
     </section>
   </section> <!-- /END Employees -->
 
@@ -55,7 +61,7 @@ $pageId = 'home';
     <section class="col-sm-12 col-lg-6">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h2>Our works</h2>
+          <h3>Our works</h3>
         </div>
         <div class="panel-body">
         <p>

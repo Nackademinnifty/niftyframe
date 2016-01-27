@@ -52,8 +52,7 @@
 
 	
 	//For desktop and tablet
-	@media screen and (min-width:#{$tablet-width}){
-		
+@include lg	{	
 		.wra{
 			width: 90%;
 			margin: 150px auto;
@@ -61,4 +60,6 @@
 	}
 
 }
+
+
 
