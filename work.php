@@ -35,7 +35,7 @@ $pageId = 'works';
                             <div class="col-xs-8 col-sm-5 col-md-3"><h4>Tittut: Campaign site</h4></div>
                         </article>
                     </a>
-                </div>
+                    <
                         <div class="col-xs-12 col-md-6">
 
                     <a href="training365.php">
@@ -43,7 +43,7 @@ $pageId = 'works';
                             <div class="col-xs-8 col-sm-5 col-md-3"><h4>Traning 365: Site & App</h4></div>
                         </article>
                     </a>
-                </div>
+                    <
                         <div class="col-xs-12 col-md-6">
 
                     <a href="eko.php">
@@ -51,7 +51,7 @@ $pageId = 'works';
                         <div class="col-xs-8 col-sm-5 col-md-3"><h4>Eko: Campaign site</h4></div>
                     </article>
                     </a>
-                </div>
+                    <
 </section>
 
  </section>
