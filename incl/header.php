@@ -36,7 +36,7 @@
 
   <div class="container-fluid">  
 
-    <header<?php if($pageId === 'home'){echo " id='$pageId' class='$pageId fullscreen page-header-start' ";}
+    <header<?php if($pageId === 'home'){echo " id='$pageId' class='$pageId page-header-start' ";}
     elseif ($pageId !='home') {echo " id='$pageId' class='$pageId page-header' ";}?>>
         
 
