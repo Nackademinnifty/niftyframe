@@ -20,7 +20,7 @@ $pageId = 'home';
         </div>
       </div>
     </section>
-    <section id="btn-section" class="col-sm-12 col-lg-6">
+    <section class="col-sm-12 col-lg-6 btn-section">
       <a class="btn-lg btn-default" href="about.php#offerWrap">Read more</a>
     </section>
   </section> <!-- /END History -->
