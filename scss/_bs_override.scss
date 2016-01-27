@@ -2,121 +2,103 @@
   All global stil i BS
 ==================================== */
 .jumbotron {
-    background-color: transparent;
+  background-color: transparent;
 }
-
 .btn-default {
+  color: $mainFont;
+  background-color: $accentPink;
+
+  &:hover {
     color: $mainFont;
-    background-color: $accentPink;
-    &:hover {
-        color: $mainFont;
-        background-color: lighten($accentPink, 5%);
-        text-decoration: none;
-    }
+    background-color: lighten($accentPink, 5%);
+    text-decoration: none;
+  }
 }
+.page-header {
+  border-bottom: none;
+  margin: 0;
+  height: 30vh;
 
-.page-header{
-border-bottom:none;
-margin-bottom: 7%;
-height:50vh;
+  @include md {
+    height: 80vh;
+  }
 }
-.page-header-start{
-border-bottom:none;
-height:100vh;
+.page-header-start {
+  border-bottom: none;
+  height: 100vh;
 }
-
-a{
-  color: $brightFont;  
+a {
+  color: $brightFont;
 }
-
-.no-gutter{
-padding-left:0;
-padding-right:0;
-
+.no-gutter {
+  padding-left: 0;
+  padding-right: 0;
 }
-
-
-
-
 
 /* ================================= 
   Allt som har med navbaren att göra i BS
 ==================================== */
 .active {
-    color: $accentPink;
-    @include lg {
-        color: $brightFont;
-        border-bottom: 2px solid $accentPink;
-    }
+  color: $accentPink;
+
+  @include lg {
+    color: $brightFont;
+    border-bottom: 2px solid $accentPink;
+  }
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-color: $accentPink;
-
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: $accentPink;
 }
-
-a.list-group-item:hover,
-button.list-group-item:hover,
-a.list-group-item:focus,
-button.list-group-item:focus {
-  background: $accentPink;  
+a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus {
+  background: $accentPink;
 }
-
-
 
 
 
 .navbar-default {
-    background-color: transparent;
+  background-color: transparent;
+  
+}
 
+.nav > * {
+  overflow-x: hidden;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: $mainFont;
+  color: $mainFont;
+
+
   &:hover {
     color: $mainFont;
     text-decoration: none;
     border-bottom: 2px solid $accentPink;
   }
 }
-
 .navbar-collapse, .navbar-default {
-   border:none; 
+  border: none;
 }
-
-
-
-
-
 .navbar-toggle {
-    width: 75px;
-    height: 75px;
-    border-radius: 37.5px;
-    background-color: $accentPink;
-    border: none;
+  width: 75px;
+  height: 75px;
+  border-radius: 37.5px;
+  background-color: $accentPink;
+  border: none;
 }
-
-.glyphicon-menu-hamburger{
-font-size: 2em;    
-    
-    
+.glyphicon-menu-hamburger {
+  font-size: 2em;
 }
 
 /* ================================= 
   Ny style för panel-default i BS
 ==================================== */
-
 .panel-default > .panel-heading {
   color: $mainFont;
   background-color: $accentPink;
   border: none;
 }
-
 .panel-body {
   font-size: 1.3em;
 }
-
 .panel.panel-default {
   background-color: black;
   border: none;
