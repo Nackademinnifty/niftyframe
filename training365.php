@@ -10,8 +10,8 @@ $pageId = 'Training365';
             <article>
                <div class="col-xs-12 col-md-5">
                	<h2>Client: <span>Training 365</span></h2>
-                <h2>Project: <span> New site & App</span></h2>
-                <h2>Link:<a href="#">Training 365</a></h2> 
+                <h2>Project: <span>New site & App</span></h2>
+                <h2>Link: <a href="#">Training 365</a></h2> 
                 <h2>Description:</h2>
                 <p>Traning 365 wanted us to make a site and app for their members so that are easier for them to book group training. The site will also give inspirational and motivational articles for the members to workout more.</p>
 

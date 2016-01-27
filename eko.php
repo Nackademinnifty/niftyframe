@@ -17,7 +17,7 @@ $pageId = 'Eko';
 							</div>
                 
                 <figure class="pull-right col-xs-12 col-md-6">
-                    <a target="_top" href="img/work/eko.jpg"><img class="img-responsive" src="img/work/eko.jpg" alt="eko website Responsive image"></a>
+                    <a target="_top" href="img/work/eko.jpg"><img class="img-responsive" src="img/work/eko2.jpg" alt="eko website Responsive image"></a>
                 </figure>
             </article>
         </section>
