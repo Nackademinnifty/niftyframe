@@ -1,6 +1,5 @@
 video#bgvid {
-    display: none;
-    @include desktop {
+    @include md {
         display: block;
         position: absolute;
         top: 50%;
@@ -9,13 +8,9 @@ video#bgvid {
         min-height: 100%;
         width: auto;
         height: auto;
-       // z-index: 0;
         transform: translateX(-50%) translateY(-50%);
         -webkit-transform: translateX(-50%) translateY(-50%);
-        background: $dark;
         background-size: cover;
-        //@include opacity(0.9);
-        //background:$dark;
-        //background-blend-mode: darken;
+        @include opacity(0.5)
     }
 }

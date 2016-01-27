@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -41,12 +41,13 @@
         
 
 <?php include 'incl/nav.php'?>
+<?php include 'incl/video.php'?>
 
         
         <div class="row svg-row">
                <div class="jumbotron">
                      <div class="svglogo">
-                        <?php include 'incl/logo.php'?>
+                        <a href="index.php"><?php include 'incl/logo.php'?></a>
                 </div>
 
             <div class="col-xs-12 col-sm-12 col-sm-offset-1 col-md-12">
