@@ -51,7 +51,7 @@ $pageId = 'home';
       <a href="about.php#nina"><img class="img-rounded" src="img/robin.jpeg" alt="Nina Ma"></a>
       <a href="about.php#victor"><img class="img-rounded" src="img/victor.jpg" alt="Victor T Wagner"></a>
     </figure>
-    <section id="btn-section" class="col-sm-12">
+    <section class="col-sm-12 btn-section">
       <a class="hidden-lg hidden-md btn-lg btn-default" href="about.php">Meet our team!</a>
     </section>
   </section> <!-- /END Employees -->
@@ -72,7 +72,7 @@ $pageId = 'home';
         </div>
       </div>
     </section>
-    <section id="btn-section" class="col-sm-12 col-lg-6">
+    <section class="col-sm-12 col-lg-6 btn-section">
       <a class="btn-lg btn-default" href="work.php">View our work</a>
     </section>
   </section> <!-- /END Showcase -->
