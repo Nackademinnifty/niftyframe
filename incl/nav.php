@@ -12,8 +12,8 @@
                 <div class="col-xs-6 col-xs-offset-7 col-md-offset-4">
                     <div id="navbar" class="navbar-collapse collapse">
                         <div class="row">
-                            <div class="col-xs-12 col-md-10 col-xs-offset-1 col-md-offset-0">
-                                <ul class="nav navbar-nav text-uppercase">
+                            <div class="col-xs-10 col-md-10">
+                                <ul class="nav navbar-nav dropdown text-uppercase pull-right">
                                     <li <?php if($pageId=='home' ) echo "class=active"; ?>><a href="index.php">Home</a></li>
                                     <li <?php if($pageId=='contacts' ) echo "class=active"; ?>><a href="contact.php">Contact</a></li>
                                     <li <?php if($pageId=='works' || $pageId =='Craftfood' || $pageId =='Eko' || $pageId =='Training365' || $pageId =='Tittut' ) echo "class=active"; ?>><a href="work.php">Works</a></li>
