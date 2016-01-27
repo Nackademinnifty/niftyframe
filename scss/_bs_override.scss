@@ -1,5 +1,5 @@
 /* ================================= 
-  All global stil 
+  All global stil i BS
 ==================================== */
 .jumbotron {
     background-color: transparent;
@@ -15,9 +15,24 @@
     }
 }
 
+.page-header{
+border-bottom:none;
+margin-bottom: 7%;
+height:50vh;
+}
+.page-header-start{
+border-bottom:none;
+height:100vh;
+}
 
 a{
   color: $brightFont;  
+}
+
+.no-gutter{
+padding-left:0;
+padding-right:0;
+
 }
 
 
@@ -25,7 +40,7 @@ a{
 
 
 /* ================================= 
-  Allt som har med navbaren att göra
+  Allt som har med navbaren att göra i BS
 ==================================== */
 .active {
     color: $accentPink;
@@ -89,7 +104,7 @@ font-size: 2em;
 }
 
 /* ================================= 
-  Ny style för panel-default
+  Ny style för panel-default i BS
 ==================================== */
 
 .panel-default > .panel-heading {
