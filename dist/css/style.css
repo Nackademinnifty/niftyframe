@@ -1,0 +1,571 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Times Bold';
+  src: url(../../times.ttf); }
+html,
+body {
+  overflow-x: hidden;
+  background-color: #0A0000;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  z-index: -1000; }
+
+h1, h2, h4, h4, h5 {
+  font-family: "Arvo", serif; }
+
+.svglogo {
+  width: 10%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  top: 10%;
+  width: 30%; }
+  @media only screen and (min-width: 768px) {
+    .svglogo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      width: 20%; } }
+  @media only screen and (min-width: 1200px) {
+    .svglogo {
+      width: 30%; } }
+
+.svglogo-start {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); }
+  @media only screen and (min-width: 992px) {
+    .svglogo-start {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      width: 25%; } }
+  @media only screen and (min-width: 1200px) {
+    .svglogo-start {
+      width: 30%; } }
+
+.svg-row {
+  min-height: 90vh;
+  position: relative; }
+
+.currentPage {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1em; }
+
+/* ================================= 
+  All global stil i BS
+==================================== */
+.jumbotron {
+  background-color: transparent; }
+
+.btn-default {
+  color: #fff;
+  background-color: #F50057; }
+  .btn-default:hover {
+    color: #fff;
+    background-color: #ff1065;
+    text-decoration: none; }
+
+.page-header {
+  border-bottom: none;
+  margin: 0;
+  height: 60vh; }
+  @media only screen and (min-width: 992px) {
+    .page-header {
+      height: 80vh; } }
+
+.page-header-start {
+  border-bottom: none;
+  height: 80vh; }
+  @media only screen and (min-width: 992px) {
+    .page-header-start {
+      height: 100vh; } }
+
+a {
+  color: rgba(255, 255, 255, 0.8); }
+
+.no-gutter {
+  padding-left: 0;
+  padding-right: 0; }
+
+/* ================================= 
+  Allt som har med navbaren att göra i BS
+==================================== */
+.active {
+  color: #F50057; }
+  @media only screen and (min-width: 1200px) {
+    .active {
+      color: rgba(255, 255, 255, 0.8);
+      border-bottom: 2px solid #F50057; } }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #F50057; }
+
+a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus {
+  background: #F50057; }
+
+.navbar-default {
+  background-color: transparent; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #F50057; }
+
+.navbar-collapse, .navbar-default {
+  border: none; }
+
+.navbar-toggle {
+  width: 75px;
+  height: 75px;
+  border-radius: 37.5px;
+  background-color: #F50057;
+  border: none; }
+
+.glyphicon-menu-hamburger {
+  font-size: 2em; }
+
+/* ================================= 
+  Ny style för panel-default i BS
+==================================== */
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #F50057;
+  border: none; }
+
+.panel-body {
+  font-size: 1.3em; }
+
+.panel.panel-default {
+  background-color: black;
+  border: none; }
+
+.svg {
+  display: inline-block;
+  vertical-align: middle;
+  fill: #C30045;
+  -webkit-fill: #C30045; }
+  .svg polygon:nth-child(1) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 0.3s; }
+  .svg polygon:nth-child(2) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 0.6s; }
+  .svg polygon:nth-child(3) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 0.9s; }
+  .svg polygon:nth-child(4) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 1.2s; }
+  .svg polygon:nth-child(5) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 1.5s; }
+  .svg polygon:nth-child(6) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 1.8s; }
+  .svg polygon:nth-child(7) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 2.1s; }
+  .svg polygon:nth-child(8) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 2.4s; }
+  .svg polygon:nth-child(9) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 2.7s; }
+  .svg polygon:nth-child(10) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 3s; }
+  .svg polygon:nth-child(11) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 3.3s; }
+  .svg polygon:nth-child(12) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 3.6s; }
+  .svg polygon:nth-child(13) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 3.9s; }
+  .svg polygon:nth-child(14) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 4.2s; }
+  .svg polygon:nth-child(15) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 4.5s; }
+  .svg polygon:nth-child(16) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 4.8s; }
+  .svg polygon:nth-child(17) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 5.1s; }
+  .svg polygon:nth-child(18) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 5.4s; }
+  .svg polygon:nth-child(19) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 5.7s; }
+  .svg polygon:nth-child(20) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 6s; }
+  .svg polygon:nth-child(21) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 6.3s; }
+  .svg polygon:nth-child(22) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 6.6s; }
+  .svg polygon:nth-child(23) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 6.9s; }
+  .svg polygon:nth-child(24) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 7.2s; }
+  .svg polygon:nth-child(25) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 7.5s; }
+  .svg polygon:nth-child(26) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 7.8s; }
+  .svg polygon:nth-child(27) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 8.1s; }
+  .svg polygon:nth-child(28) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 8.4s; }
+  .svg polygon:nth-child(29) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 8.7s; }
+  .svg polygon:nth-child(30) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 9s; }
+  .svg polygon:nth-child(31) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 9.3s; }
+  .svg polygon:nth-child(32) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 9.6s; }
+  .svg polygon:nth-child(33) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 9.9s; }
+  .svg polygon:nth-child(34) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 10.2s; }
+  .svg polygon:nth-child(35) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 10.5s; }
+  .svg polygon:nth-child(36) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 10.8s; }
+  .svg polygon:nth-child(37) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 11.1s; }
+  .svg polygon:nth-child(38) {
+    animation: pweek 11.4s linear infinite;
+    animation-delay: 11.4s; }
+
+@keyframes pweek {
+  0% {
+    fill: #C30045;
+    -webkit-fill: #C30045; }
+  20% {
+    fill: #EE0054;
+    -webkit-fill: #EE0054; }
+  40% {
+    fill: #F50057;
+    -webkit-fill: #F50057; }
+  60% {
+    fill: #F63076;
+    -webkit-fill: #F63076; }
+  80% {
+    fill: #F75F95;
+    -webkit-fill: #F75F95; }
+  100% {
+    fill: #C30045;
+    -webkit-fill: #C30045; } }
+.dropdown {
+  background: rgba(38, 37, 39, 0.89); }
+  @media only screen and (min-width: 768px) {
+    .dropdown {
+      background: transparent; } }
+
+footer {
+  background-color: #0A0000;
+  border: 0; }
+  footer .info {
+    font-style: normal;
+    line-height: 300%; }
+    footer .info a, footer .info p {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 100%;
+      font-weight: 500;
+      text-decoration: none; }
+  @media only screen and (min-width: 992px) {
+    footer .map {
+      background-color: rgba(38, 37, 39, 0.89);
+      -webkit-background-blend-mode: darken; } }
+  footer .map #map {
+    height: 90vh;
+    opacity: 0.5;
+    filter: alpha(opacity=50); }
+  footer .map-wrapper {
+    position: relative; }
+  footer .find-us {
+    font-family: "Arvo", serif;
+    color: #fff;
+    font-size: 5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); }
+  footer .sociallinks {
+    color: #F50057;
+    font-size: 3em; }
+  footer i {
+    padding: 2%; }
+
+.footerLogo {
+  font-family: "Times Bold";
+  color: #fff;
+  font-size: 0.8em; }
+  @media only screen and (min-width: 992px) {
+    .footerLogo {
+      font-size: 1em; } }
+  .footerLogo span {
+    color: #F50057; }
+
+@media only screen and (min-width: 1200px) {
+  #journey {
+    min-height: 100vh;
+    padding: 50px;
+    background: no-repeat center/cover url(../../img/journey.jpeg); } }
+
+@media only screen and (min-width: 1200px) {
+  #team {
+    min-height: 100vh;
+    padding: 50px;
+    background: no-repeat center/cover url(../../img/team.jpeg); } }
+
+@media only screen and (min-width: 1200px) {
+  #portfolio {
+    min-height: 100vh;
+    padding: 50px;
+    background: no-repeat center/cover url(../../img/portfolio.jpeg); } }
+
+.btn-section {
+  padding: 80px; }
+
+figure img {
+  max-height: 200px;
+  max-width: 200px;
+  margin: 10px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7); }
+  @media only screen and (min-width: 1200px) {
+    figure img {
+      transition: all .2s ease-in-out; }
+      figure img:hover {
+        transform: scale(1.1); } }
+
+.fullscreen {
+  height: 100vh; }
+
+.halfscreen {
+  height: 50vh; }
+
+.three-quarter-screen {
+  height: 75vh; }
+
+.one-quarter-screen {
+  height: 25vh; }
+
+#contact input {
+  font-size: 110%;
+  min-height: 40px;
+  color: #0A0000; }
+#contact textarea {
+  width: 100%;
+  font-size: 120%;
+  color: #0A0000; }
+#contact label {
+  font-size: 130%; }
+#contact section {
+  font-size: 130%; }
+#contact a {
+  color: #F50057; }
+#contact address {
+  margin-bottom: 10px; }
+#contact p:nth-child(3) {
+  margin-bottom: 0; }
+#contact .btn {
+  font-size: 120%;
+  color: white;
+  border: none; }
+#contact h1 {
+  margin-bottom: 30px; }
+#contact strong {
+  font-style: italic;
+  font-weight: inherit; }
+@media only screen and (min-width: 992px) {
+  #contact .center-block {
+    width: 90%; } }
+
+@media only screen and (min-width: 992px) {
+  video#bgvid {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 50vh;
+    width: auto;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    opacity: 0.1;
+    filter: alpha(opacity=10); } }
+
+.work a {
+  text-decoration: none; }
+  .work a article {
+    color: rgba(255, 255, 255, 0.8);
+    min-height: 200px;
+    -webkit-background-blend-mode: multiply;
+    background-color: rgba(139, 137, 144, 0.89);
+    background-size: cover; }
+    .work a article:hover {
+      background-color: #737373; }
+    @media only screen and (min-width: 992px) {
+      .work a article {
+        min-height: 400px; } }
+    .work a article p {
+      width: 50%;
+      line-height: 180%; }
+      @media only screen and (min-width: 992px) {
+        .work a article p {
+          line-height: 200%; } }
+    .work a article div {
+      background-color: rgba(245, 0, 86, 0.7);
+      display: block; }
+      .work a article div h2 {
+        line-height: 250%;
+        margin-left: 2%;
+        font-family: "Arvo", serif;
+        font-size: 100%; }
+        @media only screen and (min-width: 992px) {
+          .work a article div h2 {
+            font-size: 1.3em; } }
+    .work a article a {
+      text-decoration: none;
+      color: #F50057;
+      margin-left: 5%; }
+      @media only screen and (min-width: 992px) {
+        .work a article a {
+          line-height: 200%; } }
+.work #eko {
+  background-image: url(../../img/work/thumbnails/eko.jpg); }
+.work #training365 {
+  background-image: url(../../img/work/thumbnails/training.jpg); }
+.work #tittut {
+  background-image: url(../../img/work/thumbnails/tittut.jpg); }
+.work #craftfood {
+  background-image: url(../../img/work/thumbnails/craftfood.jpg); }
+
+.project article {
+  width: 100%;
+  font-size: 120%;
+  color: rgba(255, 255, 255, 0.8); }
+  @media only screen and (min-width: 992px) {
+    .project article {
+      font-size: 110%;
+      width: 90%; } }
+  .project article a {
+    color: #F50057; }
+  .project article h2 {
+    font-size: 1.5em; }
+    @media only screen and (min-width: 992px) {
+      .project article h2 {
+        font-size: 2em; } }
+  .project article p {
+    line-height: 180%; }
+    @media only screen and (min-width: 992px) {
+      .project article p {
+        line-height: 200%; } }
+  .project article img {
+    max-height: 570px; }
+    .project article img:hover {
+      transform: none; }
+
+.employeeImage {
+  height: 30vw;
+  width: 30vw;
+  border: 10px solid #F50057;
+  background-size: cover !important;
+  display: block; }
+  .employeeImage:hover, .employeeImage:focus {
+    border: 5px solid #F50057; }
+  @media only screen and (min-width: 992px) {
+    .employeeImage {
+      width: 20vw;
+      height: 20vw; } }
+
+.employeeName h3,
+.employeeName h1,
+.employeeName p,
+.employeeTitle h3,
+.employeeTitle h1,
+.employeeTitle p,
+.employeeQuote h3,
+.employeeQuote h1,
+.employeeQuote p,
+#aboutTeam h3,
+#aboutTeam h1,
+#aboutTeam p,
+#aboutOffers h3,
+#aboutOffers h1,
+#aboutOffers p,
+#aboutAwards h3,
+#aboutAwards h1,
+#aboutAwards p,
+#aboutPhilosophy h3,
+#aboutPhilosophy h1,
+#aboutPhilosophy p,
+#aboutHistory h3,
+#aboutHistory h1,
+#aboutHistory p {
+  background-color: #F50057;
+  margin: 0; }
+@media only screen and (min-width: 992px) {
+  .employeeName:before,
+  .employeeTitle:before,
+  .employeeQuote:before,
+  #aboutTeam:before,
+  #aboutOffers:before,
+  #aboutAwards:before,
+  #aboutPhilosophy:before,
+  #aboutHistory:before {
+    content: " ";
+    height: 150px; } }
+
+.col-center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#victor {
+  background: url(../../img/victor.jpg) no-repeat center center; }
+
+#robin {
+  background: url(../../img/robin.jpeg) no-repeat center center; }
+
+#joel {
+  background: url(../../img/joel.jpg) no-repeat center center; }
+
+#nina {
+  background: url(../../img/nina.jpg) no-repeat center center; }
