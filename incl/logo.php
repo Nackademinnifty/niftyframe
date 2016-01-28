@@ -1,4 +1,4 @@
-<span class="svg col-md-12">
+<span class="svg col-xs-9 col-sm-3 col-md-4">
 <svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 804.9 240.9" style="enable-background:new 0 0 804.9 240.9;" xml:space="preserve">
 <polygon class="st0" points="735.4,240.9 665.8,200.7 735.4,160.6 "/>
