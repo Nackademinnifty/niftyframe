@@ -1,26 +1,10 @@
-.svglogo {
-    width: 10%;
-    @include centerHorizontal;
-    top: 10%;
-    width: 30%;
-    @include sm {
-        @include centerBoth;
-        width: 20%;
-    }
-    @include lg {
-        width: 30%;
-    }
-}
 .svglogo-start {
-    top:50%;
-    @include centerHorizontal;
+    position:relative;
     @include md {
-        @include centerBoth;
-        width: 25%;
+    margin-top:20%;
+    margin-left:40%;
     }
-    @include lg {
-        width: 30%;
-    }
+    
 }
 
 .svg-row {
