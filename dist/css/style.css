@@ -13,10 +13,13 @@ body {
 h1, h2, h4, h4, h5 {
   font-family: "Arvo", serif; }
 
-.svglogo-start {
+.svglogo {
   position: relative; }
+  @media only screen and (min-width: 768px) {
+    .svglogo {
+      margin-top: -4%; } }
   @media only screen and (min-width: 992px) {
-    .svglogo-start {
+    .svglogo {
       margin-top: 20%;
       margin-left: 40%; } }
 
