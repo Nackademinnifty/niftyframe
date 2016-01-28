@@ -46,8 +46,8 @@
 
         <div class="row svg-row">
                <div class="jumbotron">
-                     <div <?php if($pageId === 'home'){echo "class='svglogo-start'";}
-                        elseif ($pageId !='home') {echo "class='svglogo'";}?>>
+                     <div <?php if($pageId === 'home'){echo "class='svglogo-start col-md-12'";}
+                        elseif ($pageId !='home') {echo "class='svglogo col-md-12'";}?>> 
                         <a href="index.php"><?php include 'incl/logo.php'?></a>
                 </div>
 
