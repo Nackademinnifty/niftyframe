@@ -1,21 +1,18 @@
 
 1. Presentation av företaget (Robin)
 - verksamhetsbeskrivning
-- wireframe
-- logotyper
+
+2. logotyper (Joel)
 - grafisk profil
+- logotyper
+
+3. Wireframen (Victor)
+- wireframe
 
 
-2. Projektformen (Nina)
-- git
-- slack
+4. Git & samarbete, konflikter? (Nina)
+
+
  
  
-3. 
-
-
-4. SASS/PHP
-
-
-
-4. Bra/dåligt med respektive? (Alla)
+5. Bra/dåligt med respektive? (Alla)
